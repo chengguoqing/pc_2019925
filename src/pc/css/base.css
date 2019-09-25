@@ -759,7 +759,7 @@ em {
 }
 
 .blm {
-    border-left: 1px solid #F3F3F3
+    border-left: 1px solid #e0e0e0
 }
 
 
@@ -802,7 +802,7 @@ em {
 
 
 .ls {
-    color: #0096D7
+    color: #366dec
 }
 
 a {
@@ -814,8 +814,8 @@ ul {
 }
 
 .bgls {
-    background: #0096D7!important;
-    border: 1px solid #0096D7!important;
+    background: #366dec!important;
+    border: 1px solid #366dec!important;
     color: #fff
 }
 

@@ -5,7 +5,9 @@ body{
 .dx_toper{
     height: 35px;
     line-height: 35px;
-    background: #f3f3f3
+    background: #f3f3f3;
+    position: relative;
+    z-index: 100000
 }
 .sshuye_e{
     width: 290px;
@@ -53,11 +55,28 @@ body{
     width: 45px;
     height: 45px;
 }
-.fdfgsdfdsr a{
-    color: #333
+.fdfgsdfdsr {
+   
 }
-.fdfgsdfdsr a.act,.fdfgsdfdsr a:hover{
-    color: #6E90F0
+.fdfgsdfdsr .col-xs-1{
+    padding: 0 !important;
+}
+.fdfgsdfdsr a{
+    color: #333;
+    line-height: 38px;
+    display: block;
+    width: 100%;
+    height: 100%
+}
+.fdfgsdfdsr a.act{
+    color: #366dec
+}
+.fdfgsdfdsr a:hover{
+    background: #396DEC;
+    color: #fff
+}
+.fdfgsdfdsr a.fz12{
+    font-size: 16px 
 }
 .busder_er{
     width: 1057px;
@@ -220,4 +239,92 @@ body{
     height: 60px;
     line-height: 60px;
     padding: 0px;
+}
+.sd_jh_dert{
+    background: #464646;
+    padding-top: 45px;
+    padding-bottom: 45px;
+    margin-top: 100px;
+}
+.weixingwer{
+    width: 32px;
+    height: 25px;
+    background-position: -94px -16px;
+}
+.dsfdfd_eer{
+    line-height: 1.8
+}
+.usewer_deet{
+    width: 24px;
+    height: 24px;
+}
+.df_deeets{
+    position: relative;
+    z-index: 10000
+}
+.ssd_jhj_xeer{
+   width: 224px;
+    height: 181px;
+    border: 1px solid #e0e0e0;
+    background: #fff;
+    padding-top: 15px;
+    position: absolute;
+    right: 0;
+    top: 34px;
+    z-index: 100;
+    display: none
+}
+.dsf_eeeert{
+    cursor: pointer
+}
+.dsf_eeeert:hover .ssd_jhj_xeer{
+    display: block
+}
+
+.ssd_jj_e{
+    width: 75px;
+}
+.uswre_eer{
+    width: 45px;
+    height: 45px;
+}
+.dsf_xdeert{
+    background: #FF9661;
+    border-radius: 4px;
+    padding: 2px 7px;
+}
+.sdd_deet{
+    padding-right: 20px;
+}
+.sdd_deet li{
+    color: #666666;
+    line-height: 23px;
+    cursor: pointer;
+    padding-left: 5px;
+}
+.sdd_deet li:hover{
+    background: #FFDECD
+}
+.dsfdsf_xeeert{
+    position: absolute;
+    left: 0px;
+    top: 38px;
+    background: #396DEC;
+    color: #fff;
+    width: 184px;
+    text-align: left;
+    display: none
+    
+}
+.dsfdsf_xeeert li{
+    padding-left: 30px;
+    line-height: 35px;
+    cursor: pointer
+}
+.dsfdsf_xeeert li:hover{
+    background: #fff;
+    color: #396DEC;
+}
+.fdfgsdfdsr .col-xs-1:hover .dsfdsf_xeeert{
+    display: block
 }
