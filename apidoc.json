@@ -1,0 +1,8 @@
+{
+  "name": "独行工匠",
+  "version": "0.1.0",
+  "description": "独行工匠工作室",
+  "template": {
+    "withCompare": false
+  }
+}
