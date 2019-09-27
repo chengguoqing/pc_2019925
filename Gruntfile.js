@@ -5,7 +5,7 @@ module.exports = function (grunt) {
     require('load-grunt-tasks')(grunt);
     grunt.initConfig({
         fixturesPath: './src/' + ty,
-         htmlbuild: {
+        htmlbuild: {
             //            html上这样引入 就可以插入 头部和尾部
             //   <!-- build:section layout.header --> <!-- /build -->
             //    <!-- build:section layout.footer --><!-- /build -->
@@ -28,7 +28,9 @@ module.exports = function (grunt) {
                     sections: {
                         layout: {
                             header: '<%= fixturesPath %>/lay/top.html',
-                            footer: '<%= fixturesPath %>/lay/bottom.html'
+                            headera: '<%= fixturesPath %>/lay/topa.html',
+                            footer: '<%= fixturesPath %>/lay/bottom.html',
+                            footera: '<%= fixturesPath %>/lay/bottoma.html'
                         }
                     },
                     data: {
@@ -37,7 +39,23 @@ module.exports = function (grunt) {
                 }
             }
         },
-         postcss: { //css加前缀
+
+        render: {
+            options: {
+                partialPaths: ['<%= fixturesPath %>/lay/']
+            },
+            html: {
+                files: [
+                    {
+                        expand: true,
+                        cwd: ljsd,
+                        src: '**/*.html',
+                        dest: ljsd
+                    }
+                  ]
+            }
+        },
+        postcss: { //css加前缀
             options: {
                 map: false,
                 processors: [
@@ -57,10 +75,10 @@ module.exports = function (grunt) {
                     collapseWhitespace: true
                 },
                 files: [{
-                  expand: true,
-                        cwd: './src/' + ty,
-                        src: '**/*.html',
-                        dest: ljsd
+                    expand: true,
+                    cwd: './src/' + ty,
+                    src: '**/*.html',
+                    dest: ljsd
                 }]
             }
         },
@@ -119,19 +137,19 @@ module.exports = function (grunt) {
         uglify: { //压缩
             buildall: { //按原文件结构压缩js文件夹内所有JS文件
                 files: [{
-                             expand: true,
-                             cwd: 'src/' + ty + '/js', //js目录下
-                             src: '*.js', //所有js文件
-                             dest: ljsd + '/js' //输出到此目录下
+                    expand: true,
+                    cwd: 'src/' + ty + '/js', //js目录下
+                    src: '*.js', //所有js文件
+                    dest: ljsd + '/js' //输出到此目录下
                       }]
-//                files: [{
-//                        expand: true,
-//                        cwd: ljsd + '/js', //js目录下
-//                        src: '*.js', //所有js文件
-//                        dest: ljsd + '/js' //输出到此目录下
-//                    }
-//
-//                           ]
+                //                files: [{
+                //                        expand: true,
+                //                        cwd: ljsd + '/js', //js目录下
+                //                        src: '*.js', //所有js文件
+                //                        dest: ljsd + '/js' //输出到此目录下
+                //                    }
+                //
+                //                           ]
             }
 
         },
@@ -149,8 +167,8 @@ module.exports = function (grunt) {
     grunt.loadNpmTasks('grunt-contrib-htmlmin');
     grunt.loadNpmTasks('grunt-contrib-imagemin');
 
-       grunt.loadNpmTasks('grunt-postcss')
+    grunt.loadNpmTasks('grunt-postcss')
 
 
-    grunt.registerTask('default', ["htmlbuild","copy","imagemin","uglify","cssmin", 'postcss']);
+    grunt.registerTask('default', ['htmlbuild',"render", "copy", "imagemin", "uglify", "cssmin", 'postcss']);
 }

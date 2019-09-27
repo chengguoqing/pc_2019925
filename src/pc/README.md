@@ -1,11 +1,41 @@
+ <!--<span class="ml50">登录</span><span class="blm ml10 pl10">注册</span>-->
 ##brow
  <div class="row">
         <div class="col-xs-3"></div>
 </div>
 
+##bfenye
+分页
+      <nav >
+                    <ul class="pagination">
+                        <li class="disabled"><a href="#" aria-label="Previous"><span aria-hidden="true">&laquo;</span></a></li>
+                        <li class="active">
+                            <a href="#">1</a>
+                            </li>
+                               <li >
+                            <a href="#">2</a>
+                            </li>    <li >
+                            <a href="#">3</a>
+                            </li>
+                                <li >
+                            <a href="#">4</a>
+                            </li>
+                                <li >
+                            <a href="#">5</a>
+                            </li>
+                             <li class="disabled"><a href="#" aria-label="Previous"><span aria-hidden="true">»</span></a></li>
+                       
+                    </ul>
+                </nav>
 
 ##bbtn 按钮
 <button type="button" class="btn btn-primary btn-lg">下一步</button>
+
+##bfor
+  <!--<%  for (var a in [1,2,3,4,5]){ %>  -->
+  
+<!-- <%  }%>  -->
+
 
 ##bduoxuan 多选
   <span class="dfdg_deerrt">
@@ -34,6 +64,31 @@
                 </div>
             </div>
             
+
+##bssk
+
+搜索框
+   <div class="wd">
+        <div class="mt30 row">
+            <div class="col-xs-6 z6 ">
+                <a class="z6">首页</a> >
+                <a class="z6">专家介绍</a>
+            </div>
+            <div class="col-xs-6 tr">
+                <div class="sshuye_e f_b ab">
+                    <div class="fr sshg_dert">
+                        <img src="../img/sss_b.png">
+                    </div>
+                    <p class="ov">
+                        <input type="text" placeholder="请输入关键字">
+                    </p>
+                    <p class="qc"></p>
+                </div>
+
+            </div>
+        </div>
+       
+    </div>
 
 ## blunbo 轮播图
  <div class="banerr_er">

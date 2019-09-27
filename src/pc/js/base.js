@@ -24,11 +24,10 @@ var s = {
     }
 }
 $(function () {
-   $(".hanbao").on("click",function(){
-       $(".dsf_jhhg_der").toggleClass("act")
-   })
+   $(".dfdg_deerrt").on("click", function() {
+                $(this).toggleClass("act")
+            })
 })
-
 
 
 

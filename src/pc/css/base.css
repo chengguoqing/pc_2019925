@@ -9,7 +9,9 @@
        -webkit-box-sizing: border-box !important;
     box-sizing: border-box !important;
 }
-
+.sz{
+    cursor: pointer
+}
 body {
     font-family: "Microsoft YaHei"
 }
@@ -751,7 +753,7 @@ em {
 }
 
 .btm {
-    border-top: 1px solid #F3F3F3
+    border-top: 1px solid #CACACA
 }
 
 .brm {
@@ -773,7 +775,7 @@ em {
 }
 
 .ye {
-    color: #e0b640 !important
+    color: #ff9661 !important
 }
 
 .cz {
