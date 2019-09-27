@@ -35,6 +35,34 @@
             </div>
             
 
+## blunbo 轮播图
+ <div class="banerr_er">
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <img src="img/bannerr_er.jpg">
+                </div>
+                <div class="swiper-slide">
+                    <img src="img/bannerr_er.jpg">
+                </div>
+                <div class="swiper-slide">
+                    <img src="img/bannerr_er.jpg">
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+            <div class="swiper-button-prev f_i ddsfsdfwe"></div>
+            <div class="swiper-button-next f_i ddsfsdfwe ab"></div>
+        </div>
+    </div>
+    
+     var mySwiper = new Swiper('.swiper-container', {
+            loop: true, //循环
+            pagination: '.swiper-pagination', //分页器的class的名字
+            paginationClickable: true, //点击标题跳转到指定的那页
+            prevButton: '.swiper-button-prev',
+            nextButton: '.swiper-button-next',
+        })
+
 ## html
 <!DOCTYPE html>
 <html lang="en">
