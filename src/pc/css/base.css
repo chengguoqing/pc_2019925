@@ -119,11 +119,7 @@ html {
     background: #fff!important
 }
 
-.box {
-    display: -webkit-box !important;
-    display: -ms-flexbox !important;
-    display: flex !important
-}
+
 
 .w100 {
     width: 100%
@@ -263,7 +259,7 @@ html {
 }
 
 .red {
-    color: #ff709b!important
+    color: #da251c!important
 }
 
 
@@ -565,15 +561,17 @@ em {
 .pt10 {
     padding-top: 10px!important
 }
-
+.pt100 {
+    padding-top: 100px!important
+}
 .pt15 {
     padding-top: 15px!important
 }
 
 .bgye {
-    background: #e0b640;
+    background: #FF9661;
     color: #fff;
-    border: 1px solid #e0b640
+    border: 1px solid #FF9661
 }
 
 .pl4 {
@@ -818,7 +816,7 @@ ul {
 .bgls {
     background: #366dec!important;
     border: 1px solid #366dec!important;
-    color: #fff
+    color: #fff !important;
 }
 
 
@@ -969,7 +967,12 @@ a:hover {
     color: #EF2B2D;
     border-bottom: 2px solid #EF2B2D;
 }
-
+.gd {
+    transition: all linear .1s;
+    -moz-transition: all linear .1s;
+    -webkit-transition: all linear .1s;
+    -o-transition: all linear .1s
+}
 
 
  

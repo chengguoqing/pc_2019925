@@ -24,9 +24,10 @@ var s = {
     }
 }
 $(function () {
-   $(".dfdg_deerrt").on("click", function() {
-                $(this).toggleClass("act")
-            })
+    $(".dfdg_deerrt").on("click",function () {
+        $(this).toggleClass("act")
+    })
+    $('.dsdfgfg_a,.dsdfgfg_b').drag();
 })
 
 

@@ -59,13 +59,16 @@ module.exports = function (grunt) {
             options: {
                 map: false,
                 processors: [
-
-                  require('autoprefixer')(),
-                  require('cssgrace')
+                  require('postcss-filter-gradient')(),//为旧的IE添加渐变过滤器
+                  require('autoprefixer')({ grid: 'no-autoplace' }),
+                  require('cssgrace'),
+                  require('postcss-flexboxfixer'),
+                  require('cssnano')({"preset": "advanced"})
+                   
             ]
             },
             dist: {
-                src: [ljsd + '/css/style.css', ljsd + '/css/base.css']
+                src: [ljsd + '/css/style.css', ljsd + '/css/base.css',ljsd + '/css/bootstrap.min.css']
             }
         },
         htmlmin: { // 压缩html
@@ -85,9 +88,9 @@ module.exports = function (grunt) {
         copy: {
             main: {
                 expand: true,
-                cwd: './src/' + ty + '/fonts',
+                cwd: './src/' + ty + '/js',
                 src: '**',
-                dest: ljsd + "/fonts",
+                dest: ljsd + "/js",
             },
         },
         imagemin: {
@@ -170,5 +173,5 @@ module.exports = function (grunt) {
     grunt.loadNpmTasks('grunt-postcss')
 
 
-    grunt.registerTask('default', ['htmlbuild',"render", "copy", "imagemin", "uglify", "cssmin", 'postcss']);
+    grunt.registerTask('default', ['htmlbuild',"render", "copy", "imagemin", "cssmin", 'postcss']);
 }

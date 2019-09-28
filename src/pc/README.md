@@ -1,4 +1,7 @@
  <!--<span class="ml50">登录</span><span class="blm ml10 pl10">注册</span>-->
+ ##binput
+ 输入框
+ <input type="text" class="form-control" placeholder="请输入手机号/用户名">
 ##brow
  <div class="row">
         <div class="col-xs-3"></div>
@@ -32,7 +35,7 @@
 <button type="button" class="btn btn-primary btn-lg">下一步</button>
 
 ##bfor
-  <!--<%  for (var a in [1,2,3,4,5]){ %>  -->
+ <!--<%  for (var i=0;i<10;i++){ %>  -->
   
 <!-- <%  }%>  -->
 

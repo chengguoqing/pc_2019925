@@ -1,4 +1,5 @@
-  <div class="dx_toper">
+ <link href="../css/drag.css" rel="stylesheet">
+    <div class="dx_toper">
         <div class="wd z9 fz12">
             <div class="fl">
                 共享会计收首页
@@ -6,6 +7,234 @@
             </div>
             <div class="fr tr">
                 您好！欢迎来到共享会计平台
+                <span class="ml50 sz" data-toggle="modal" data-target="#myModal">登录</span>
+                <span class="blm ml10 pl10 sz" data-toggle="modal" data-target="#myModalsan">注册</span>
+                <!-- 登录 -->
+                <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                    <div class="modal-dialog dsf_crrtyde" role="document">
+                        <div class="modal-content cen">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                            </div>
+                            <p class="cen">
+                                <img src="../img/LOGO_ER.png">
+                            </p>
+                            <div class="fg_dererett mt10 pm20">
+                                <div class="dsfdsf_h_dert bbm sz">
+                                    <span class="fz14">使用微信账号登录</span>
+                                </div>
+
+                                <p class="mt20 sz" data-dismiss="modal" aria-label="Close" data-toggle="modal" data-target="#myModaler">
+                                    <i class="f_i weirseert"></i>
+                                </p>
+                                <div class="dsfdsf_h_dert bbm mt20">
+                                    <span class="fz14">使用手机号/用户名登录</span>
+                                </div>
+
+
+                                <p class="mt30">
+                                    <input type="text" class="form-control input-lg fz16" placeholder="请输入手机号/用户名">
+                                </p>
+                                <p class="mt15">
+                                    <input type="password" class="form-control input-lg fz16" placeholder="请输入密码">
+                                </p>
+                                <p class="mt20">
+                                    <button type="button" class="btn btn-primary btn-lg w100">登录</button>
+                                </p>
+
+                                <div class="dxrow">
+                                    <span class="dfdg_deerrt fl">
+                                        <i class="f_i gouxuanseer"></i>
+                                        <span class="cz">同意使用协议 ?</span>
+                                    </span>
+                                    <div class="dxcol tr ye">
+                                    <a class="ye mr5" data-dismiss="modal" aria-label="Close" data-toggle="modal" data-target="#myModalwu">忘记密码</a>
+                                        | 
+                                     <a class="ye ml5" data-dismiss="modal" aria-label="Close" data-toggle="modal" data-target="#myModalsan">点击注册</a>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+   <!-- 微信登录 -->
+                <div class="modal fade" id="myModaler" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                    <div class="modal-dialog dsf_crrtyde" role="document">
+                        <div class="modal-content cen">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                            </div>
+                            <p class="cen">
+                                <img src="../img/LOGO_ER.png">
+                            </p>
+                            
+                            <p class="fz16 z9 mt20">
+                            微信登录
+                            </p>
+                            
+                            <p accesskey="">
+                                <img src="../img/erwerr.jpg">
+                            </p>
+                            <p class="ddsdf_derrrt">
+                            请使用微信扫描二维码 <br>
+登录“共享会计师”
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                
+<!--                使用手机号码注册-->
+                <div class="modal fade" id="myModalsan" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                    <div class="modal-dialog dsf_crrtyde" role="document">
+                        <div class="modal-content cen">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                            </div>
+                            <p class="cen">
+                                <img src="../img/LOGO_ER.png">
+                            </p>
+                                <div class="fg_dererett mt10 pm20">
+                                <div class="dsfdsf_h_dert bbm sz">
+                                    <span class="fz14">使用微信账号注册</span>
+                                </div>
+
+                                <p class="mt20 sz" data-dismiss="modal" aria-label="Close" data-toggle="modal" data-target="#myModaler">
+                                    <i class="f_i weirseert"></i>
+                                </p>
+                                    
+                                    <p class="ye mt15" data-dismiss="modal" aria-label="Close" data-toggle="modal" data-target="#myModalsi">
+                                    使用手机号码注册
+                                    </p>
+                                    
+                                    
+                                    <p class="mt20 tr fz14">
+                                    已有账号？ <a class="ye" data-dismiss="modal" aria-label="Close" data-toggle="modal" data-target="#myModal">登录到共享会计师</a>
+                                    </p>
+                                    
+                            </div>
+                            
+                         
+                        </div>
+                    </div>
+                </div>
+
+<!--                使用手机号注册-->
+                
+                   <div class="modal fade" id="myModalsi" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                    <div class="modal-dialog dsf_crrtyde" role="document">
+                        <div class="modal-content cen">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                            </div>
+                            <p class="cen">
+                                <img src="../img/LOGO_ER.png">
+                            </p>
+                            <div class="fg_dererett mt10 pm20">
+                                <div class="dsfdsf_h_dert bbm sz">
+                                    <span class="fz14">使用手机号注册</span>
+                                </div>
+
+                              
+
+                                <p class="mt30">
+                                    <input type="text" class="form-control input-lg fz16" placeholder="请输入手机号">
+                                </p>
+                                <div class="row mt15">
+                                    <div class="col-xs-7">
+                                      <input type="text" class="form-control input-lg fz16" placeholder="请输入验证码">
+                                    </div>   
+                                     <div class="col-xs-5">
+                                         <button type="button" class="btn  w100 dsfd_dert">获取验证码</button>
+                                    </div>     
+                                         
+                                </div>
+                                <p class="mt15">
+                                    <input type="password" class="form-control input-lg fz16" placeholder="请输入密码">
+                                </p>
+                                     <p class="mt15">
+                                    <input type="password" class="form-control input-lg fz16" placeholder="请再次确认密码">
+                                </p>
+                                
+                                <div class="mt15 dsdfgfg_a" id="drag"></div>
+                                <p class="mt20">
+                                    <button type="button" class="btn btn-primary btn-lg w100">注册</button>
+                                </p>
+
+                                <div class="dxrow">
+                                    <span class="dfdg_deerrt fl">
+                                        <i class="f_i gouxuanseer"></i>
+                                        <span class="cz">同意使用协议 ?</span>
+                                    </span>
+                                    <div class="dxcol tr ye">
+                                    <a class="ye mr5" data-dismiss="modal" aria-label="Close">返回</a>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                
+<!--                忘记密码-->
+                 <div class="modal fade" id="myModalwu" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                    <div class="modal-dialog dsf_crrtyde" role="document">
+                        <div class="modal-content cen">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                            </div>
+                            <p class="cen">
+                                <img src="../img/LOGO_ER.png">
+                            </p>
+                            <div class="fg_dererett mt10 pm20">
+                                <div class="dsfdsf_h_dert bbm sz">
+                                    <span class="fz14">忘记密码</span>
+                                </div>
+
+                              
+
+                                <p class="mt30">
+                                    <input type="text" class="form-control input-lg fz16" placeholder="请输入手机号">
+                                </p>
+                                <div class="row mt15">
+                                    <div class="col-xs-7">
+                                      <input type="text" class="form-control input-lg fz16" placeholder="请输入验证码">
+                                    </div>   
+                                     <div class="col-xs-5">
+                                         <button type="button" class="btn  w100 dsfd_dert">获取验证码</button>
+                                    </div>     
+                                         
+                                </div>
+                                <p class="mt15">
+                                    <input type="password" class="form-control input-lg fz16" placeholder="请输入密码">
+                                </p>
+                                     <p class="mt15">
+                                    <input type="password" class="form-control input-lg fz16" placeholder="请再次确认密码">
+                                </p>
+                                
+                                <div class="mt15 dsdfgfg_b" id="drag"></div>
+                                <p class="mt20">
+                                    <button type="button" class="btn btn-primary btn-lg w100">完成</button>
+                                </p>
+
+                                <div class="dxrow tl">
+                                    <span class="dfdg_deerrt ye sz " data-dismiss="modal" aria-label="Close" data-toggle="modal" data-target="#myModal">
+                                       我又想起密码了
+                                    </span>
+                                   
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                
+                
+                <!-- 登录后的
                 <div class="f_b ml100 pr dsf_eeeert">
                     <img src="../img/user_icon.png" class="usewer_deet cz">
                     <span class="ml5 cz">独行</span>
@@ -38,6 +267,9 @@
                         <p class="qc"></p>
                     </div>
                 </div>
+                
+-->
+
             </div>
             <p class="qc"></p>
         </div>
