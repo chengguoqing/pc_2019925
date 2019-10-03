@@ -1,8 +1,10 @@
 body {
-    padding-bottom: 10000px;
     background: #fff
 }
-
+.nieyeis .pt100{
+    padding-top: 0px !important;
+    border-top: 100px solid #F3F3F3
+}
 .dxrow:after {
     content: ' ';
     display: block;
@@ -62,15 +64,18 @@ body {
     height: 35px !important;
     line-height: 35px !important;
 }
-
+.fr.sshg_dert {
+    margin-top: -2px;
+}
 .sshuye_e.ab .sshg_dert {
+    margin-top: 0px;
     height: 35px;
     line-height: 30px;
     background: #f3f3f3 !important
 }
 
 .sshg_dert img {
-    width: 22px;
+    width: 20px;
 }
 
 .sshuye_e.ab .sshg_dert img {
@@ -1039,6 +1044,9 @@ a {
 .dsfs_deert .ov.pl15 .panel.panel-default{
     min-height: 577px;
 }
+.dsfs_deert .ov.pl15 .panel.panel-default.ab{
+    min-height: 877px;
+}
 
 
 .dsfd_hhhd_left {
@@ -1550,16 +1558,238 @@ button {
 .dsfdsfeert.act{
     background-position: -82px -344px;
 }
+.sdfdsf_deert{
+    margin-top: 22px;
+}
+
+.shezhideert{
+    width: 21px;
+    height: 20px;
+    background-position: -493px -342px;
+    position: absolute;
+    left: 0px;
+    top: -30px;
+}
+.dfds_sdf{
+    width: 50%;
+    float: left;
+    text-align: center;
+    font-size: 16px;
+    line-height: 45px;
+    background: #2D71F0;
+    color: #fff
+}
+.dfds_sdf.act{
+    background: #fff;
+    color: #2D71F0;
+}
+.dsfd_hhhd_left.ab{
+    border-top: 5px solid  #2D71F0;
+}
+.dsfdsf_jh_e.ba{
+    width: 18px;
+    height: 16px;
+    background-position: -168px -342px;
+}
+
+.dsf_j_deert li.act .dsfdsf_jh_e.ba,
+.dsf_j_deert li:hover .dsfdsf_jh_e.ba {
+    background-position: -168px -384px;
+}
+
+.dsfdsf_jh_e.bb{
+    width: 18px;
+    height: 18px;
+    background-position: -213px -340px;
+}
+
+.dsf_j_deert li.act .dsfdsf_jh_e.bb,
+.dsf_j_deert li:hover .dsfdsf_jh_e.bb {
+    background-position: -213px -382px;
+}
+.dsfdsf_jh_e.bc{
+    width: 18px;
+    height: 18px;
+    background-position: -244px -339px;
+}
+
+.dsf_j_deert li.act .dsfdsf_jh_e.bc,
+.dsf_j_deert li:hover .dsfdsf_jh_e.bc {
+    background-position: -244px -381px;
+}
+
+.dsfdsf_jh_e.bd{
+    width: 17px;
+    height: 18px;
+    background-position: -285px -340px;
+}
+
+.dsf_j_deert li.act .dsfdsf_jh_e.bd,
+.dsf_j_deert li:hover .dsfdsf_jh_e.bd {
+    background-position: -285px -382px;
+}
+.dsfdsf_jh_e.be{
+    width: 15px;
+    height: 17px;
+    background-position: -325px -338px;
+}
+
+.dsf_j_deert li.act .dsfdsf_jh_e.be,
+.dsf_j_deert li:hover .dsfdsf_jh_e.be {
+    background-position: -325px -384px;
+}
+
+.femhsddf_der{
+    width: 120px;
+    height: 120px;
+}
 
 
+.dsf_deertt{
+    line-height: 1.8
+}
+.dele_icone{
+    width: 14px;
+    height: 14px;
+    background-position: -363px -347px;
+}
+.add_iconder{
+    width: 26px;
+    height: 26px;
+    background-position: -435px -336px;
+}
+.dele_icone.ab{
+    background-position: -396px -345px;
+}
+.user_drerrtt{
+    width: 40px;
+    height: 40px;
+    position: relative;
+    bottom: 10px;
+}
+
+.dsfsdf_sdf{
+    display: none
+}
+.dsfsdf_sdf.act{
+    display: block
+}
+.toussdertxc{
+    width: 65px;
+    height: 65px;
+}
+
+.delesd_eer{
+    width: 14px;
+    height: 14px;
+    background-position: -363px -347px;
+    position: relative;
+    top: -1px;
+}
+.ssdddrrxert{
+    width: 45px;
+    height: 45px;
+}
+.sdf_j_dertxc{
+    padding: 15px 20px;
+    background: #F3F3F3;
+    border-radius: 20px;
+    line-height: 1.7;
+    border-top-left-radius: 0
+}
+.ljuusd_deer{
+    width: 16px;
+    height: 16px;
+    background-position: -302px -229px;
+    margin-right: 10px;
+    position: relative;
+    bottom: 1px;
+}
+.dsf_jjdeert{
+    width: 223px;
+    line-height: 50px;
+    padding:0 20px;
+        border-radius: 20px;
+    border-bottom-left-radius: 0
+}
+.dsfdsf_jh_deert li.ab .ssdddrrxert{
+    float: right
+}
+
+.dsfdsf_jh_deert li{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.fnahuisdee{
+    width: 8px;
+    height: 12px;
+    background-position: -42px -347px;
+}
+
+.ssd_erdeer{
+    width: 100%;
+    height: 233px;
+    background: #F3F3F3;
+    border: 0px;
+    padding: 15px;
+}
+.ssd_erdeer.ab{
+    height: 50px;
+}
+
+.sdsd_deertxc{
+    width: 80px;
+    height: 80px;
+}
+.dsf_j_xcdeeertt{
+    cursor: pointer;
+    display: none;
+    position: absolute;
+    left: 0px;
+top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,.5)
+        
+}
+.clossderert{
+    width: 10px;
+    height: 10px;
+    background-position: -360px -392px;
+}
+
+.boaijd_eert{
+    width: 13px;
+    height: 17px;
+    background-position: -393px -385px;
+}
 
 
-
-
-
-
-
-
+.dsf_derertx:hover .dsf_j_xcdeeertt{
+    display: block
+}
+.shosuddef{
+    width: 18px;
+    height: 18px;
+    background-position: -121px -344px;
+    position: relative;
+    bottom: 1px;
+}
+.shosuddef.act{
+    background-position: -82px -344px;
+}
+.dsf_kj_dert{
+    background: #F3F3F3;
+    padding: 10px 15px;;
+}
+.kzhs_deertt{
+       background: #F3F3F3;
+    padding: 3px 10px;
+}
+.dfgfrg_deeretx{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
 
 
 
